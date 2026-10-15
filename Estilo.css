@@ -252,4 +252,12 @@ a:hover {
     .pagina-proyecto a {
         margin-left: 20px;
     }
+
+
+    .derecha header p {
+        margin-top: 8px;
+        font-size: 15px;
+        color: #795783;
+    }
+
 }
