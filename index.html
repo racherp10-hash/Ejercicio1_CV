@@ -1,74 +1,105 @@
 
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>Mi Curriculum Profesional</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Rachel Rosales</title>
     <link rel="stylesheet" href="Estilo.css">
 </head>
 <body>
 
-    <header>
-        <h1>Rachel Rosales Picado</h1>
-        <p>Estudiante de Tecnologías de la Información</p>
-        <p>Teléfono: [86140642]</p>
-        <p>Correo: [racherp10@gmail.com]</p>
-    </header>
+<div class="curriculum">
 
-    <h2>Perfil Profesional</h2>
-    <p>
-        Soy estudiante de Tecnologías de la Información
-        en el Colegio Universitario de Cartago.
-        Tengo conocimientos en programación,
-        bases de datos y desarrollo de sistemas.
-    </p>
+    
+    <div class="izquierda">
 
-    <h2>Estudios</h2>
-    <ul>
-        <li>Tecnologías de la Información - Colegio Universitario de Cartago</li>
-    </ul>
+        <div class="circulo">
+            <h1>R</h1>
+        </div>
 
-    <h2>Habilidades</h2>
-    <ul>
-        <li>Desarrollo de aplicaciones</li>
-        <li>Manejo de bases de datos</li>
-        <li>Trabajo en equipo</li>
-        <li>Resolución de problemas</li>
-    </ul>
+        <h2>FORMACIÓN ACADÉMICA</h2>
+        <p><b>Colegio Universitario de Cartago</b></p>
+        <p>Tecnologías de la Información</p>
+        <p>En curso</p>
 
-    <h2>Lenguajes de Programación</h2>
-    <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>C#</li>
-        <li>SQL</li>
-        <li>HTML, CSS y JavaScript</li>
-    </ul>
+        <h2>LENGUAJES</h2>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>HTML, CSS y JavaScript</li>
+        </ul>
 
-    <h2>Mis Proyectos</h2>
+        <h2>HABILIDADES</h2>
+        <ul>
+            <li>Desarrollo de aplicaciones</li>
+            <li>Manejo de bases de datos</li>
+            <li>Trabajo en equipo</li>
+            <li>Resolución de problemas</li>
+        </ul>
 
-    <h3>Proyecto 1: Nova Online</h3>
-    <p>
-        Sistema de gestión de productos e inventario
-        desarrollado como proyecto universitario.
-    </p>
-    <a href="proyecto1.html">Ver Proyecto Nova Online</a>
+    </div>
 
-    <h3>Proyecto 2: LavaFácil</h3>
-    <p>
-        Sistema de gestión para una lavandería,
-        utilizando bases de datos SQL Server.
-    </p>
-    <a href="proyecto2.html">Ver Proyecto LavaFácil</a>
+   
+    <div class="derecha">
 
-    <h2 onclick="mostrarContactos()" style="cursor:pointer">
-        Formas de contacto
+        <header>
+            <h1>RACHEL ROSALES PICADO</h1>
+            <p>Tecnologías de la Información</p>
+        </header>
+
+        <h2>SOBRE MÍ</h2>
+        <p>
+            Soy estudiante de Tecnologías de la Información
+            en el Colegio Universitario de Cartago.
+            Tengo conocimientos en programación,
+            bases de datos y desarrollo de sistemas.
+        </p>
+
+        <h2>PROYECTOS DESARROLLADOS</h2>
+
+        <h3>Nova Online</h3>
+        <p>
+            Proyecto universitario desarrollado para
+            gestionar productos, inventarios y
+            movimientos de almacén.
+        </p>
+        <a href="proyecto1.html">Ver proyecto Nova Online</a>
+
+        <h3>LavaFácil</h3>
+        <p>
+            Sistema de gestión para una lavandería,
+            utilizando SQL Server y herramientas
+            de alta disponibilidad.
+        </p>
+        <a href="proyecto2.html">Ver proyecto LavaFácil</a>
+
+    </div>
+
+</div>
+
+
+
+<div class="parte-inferior">
+
+    <h2 onclick="mostrarContactos()">
+        FORMAS DE CONTACTO
     </h2>
 
     <div id="contactos" style="display:none">
+
         <p>Teléfono: 86140642</p>
         <p>Correo: racherp10@gmail.com</p>
+
+        
+
     </div>
 
-    <script src="Script.js"></script>
+</div>
+
+<script src="Script.js"></script>
 
 </body>
 </html>
